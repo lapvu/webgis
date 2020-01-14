@@ -1,8 +1,27 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-a {
-  color: #00B7FF;
+#map {
+  position: relative;
+}
+
+.controls {
+  width: 20vw;
+  background: rgb(49, 49, 49);
+  z-index: 200;
+}
+
+#info {
+  color: #000;
+  z-index: 100;
+  padding: 5px;
+  background: #fff;
+  margin-top: 20px;
+  width: 220px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  pointer-events: none;
 }
